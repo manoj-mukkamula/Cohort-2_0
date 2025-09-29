@@ -162,6 +162,10 @@ h2 {
   font-weight: 900;
   font-style: bold;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 
 .copyright{
   color: white;
