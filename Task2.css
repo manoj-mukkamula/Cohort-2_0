@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "death";
+    src: url(fonts/Death\ Note.ttf);
+}
+@font-face {
+    font-family: "mont";
+    src: url(fonts/Montserrat-SemiBold.otf);
+}
+@font-face {
+    font-family: "kanit";
+    src: url(fonts/Kanit-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "play";
+    src: url(fonts/PlayfairDisplay-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "glamour";
+    src: url(fonts/Glamour_Absolute_regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.task {
+  height: 100%;
+  width: 100%;
+    background-image: url(images/image3.jpg);
+    /* background-image: url(https://images.unsplash.com/photo-1670234025697-84080c3fdb08?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: play;
+  font-size: 90px;
+  font-weight: 400;
+  padding: 70px 30px 40px 30px;
+  text-transform: uppercase;
+}
+
+button{
+    background:radial-gradient( #171513, #2A2724, #433f2450);
+    color: #ECECEC;
+    font-size: 23px;
+    font-family: kanit;
+    padding: 5px 40px;
+    border-radius: 35px;
+    text-decoration: none;
+    border: #858585 1px solid;
+}
