@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "helnowdis";
+    src: url(fonts/HelveticaNowDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: "archivo";
+    src: url(fonts/Archivo-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "helnowdis", "archivo";
+    overflow: hidden;
+    background-color: #A3B3C0;
+    background: radial-gradient( #252C38 #A8B8C5 #6F837A #96C6D4 #B0C4D0);
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    margin: 20px 20px 10px 20px;
+    padding: 10px;
+}
+.nav .left{
+    padding: 0px 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: "archivo";
+}
+.nav .right{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: "archivo";
+}
+.nav #center{
+    text-align: center;
+    font-size: 30px;
+    padding: 0 420px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: "archivo"
+}
+#home{
+    padding-left: 25px;
+    margin-left: 0px;
+}
+#cart{
+    padding-right: 25px;
+    margin-right: 0px;
+}
+
+.sweaters{
+    color: black;
+    font-size: 300px;
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+}
+
+.left{
+    width: 200px;
+    margin: 75px 0px 0px 40px;
+    color: black;
+}
+h4{
+    padding: 7px 0px 5px 0px;
+    margin-top: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 90px;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 25px;
+    font-family: "archivo";
+}
+.footer #a1{
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer #a2{
+    font-weight: 300;
+    text-decoration: underline;
+    color: black;
+}
+
+
+#img1{
+    height: 350px;
+    position: absolute;
+    top: 48%;
+    left: 35%;
+}
+#img2{
+    height: 350px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+}
+#img3{
+    height: 350px;
+    position: absolute;
+    top: 48%;
+    left: 63%;
+}
