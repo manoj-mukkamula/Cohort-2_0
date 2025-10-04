@@ -87,8 +87,7 @@ button {
 }
 
 .iphone {
-  background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall.jpg);
-  background-image: url(images/iphone.jpg);
+  background-image: url(iphone.jpg);
   aspect-ratio: 1014 / 650;
   width: 100%;
   height: 80%;
@@ -229,4 +228,5 @@ button {
 
 .box5{
   color:white;
+
 }
