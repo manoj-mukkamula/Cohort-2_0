@@ -13,15 +13,11 @@ html, body{
 
 @font-face {
     font-family: archivo;
-    src: url(fonts/Archivo-Regular.ttf);
+    src: url(Archivo-Regular.ttf);
 }
 @font-face {
     font-family: figtree;
-    src: url(fonts/Figtree-Medium.ttf);
-}
-@font-face {
-    font-family: l;
-    src: url(fonts/Death\ Note.ttf);
+    src: url(Figtree-Medium.ttf);
 }
 
 
@@ -127,4 +123,5 @@ html, body{
     font-family: archivo;
     font-weight: 500;
     font-size: 16px;
+
 }
