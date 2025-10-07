@@ -27,6 +27,22 @@ background: radial-gradient(
   font-family: dark;
   src: url(fonts/PlayfairDisplay-ExtraBold.ttf);
 }
+@font-face {
+  font-family: archivo;
+  src: url(fonts/Archivo-Regular.ttf);
+}
+@font-face {
+  font-family: kanit;
+  src: url(fonts/Kanit-MediumItalic.ttf);
+}
+@font-face {
+  font-family: figtree;
+  src: url(fonts/Figtree-Medium.ttf);
+}
+@font-face {
+  font-family: nue;
+  src: url(fonts/NeueMachina-Light_gwWCZxVuQl.ttf);
+}
 
 #main {
   height: 100%;
@@ -57,14 +73,14 @@ background: radial-gradient(
 
 .choose h1 {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   text-shadow: 2px 2px 8px black;
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
   border-radius: 10px;
   text-align: center;
   margin-bottom: 40px;
-  font-family: font;
+  font-family: kanit;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -153,7 +169,7 @@ background: radial-gradient(
   font-weight: 100;
   font-size: 15px;
   position: relative;
-  border: 3px solid white ;
+  border: 5px solid white ;
 }
 .cards:hover img {
   height: 100%;
@@ -174,5 +190,33 @@ background: radial-gradient(
 }
 .card5:hover img{
   object-position: top;
-
 }
+
+.card1 .bottom h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+.card2 .bottom h2 {
+  font-family: figtree;
+  font-weight: 100;
+}
+.card3 .bottom h2 {
+  font-family: nue;
+  font-weight: 900;
+}
+.card4 .bottom h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card5 .bottom h2 {
+  font-family: font;
+}
+.card6 .bottom h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card7 .bottom h2 {
+  font-family: archivo;
+}
+.card8 .bottom h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
