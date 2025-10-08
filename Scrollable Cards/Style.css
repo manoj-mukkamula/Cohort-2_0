@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%; 
+  background: radial-gradient(ellipse at center, #2b2b2b 0%, #1a1a1a 70%, black 100%);
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+@font-face {
+    font-family: glamour;
+    src: url(fonts/Glamour_Absolute_regular.ttf);
+}
+@font-face {
+    font-family: figtree;
+    src: url(fonts/Figtree-Medium.ttf);
+}
+@font-face {
+    font-family: display;
+    src: url(fonts/sf-pro-display_regular1.woff2);
+}
+
+#parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+#parent::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    font-size: 3rem;
+    color: transparent;
+    /* color:#F3F3F3; */
+    background-clip: text;
+    background-image: url(https://images.unsplash.com/photo-1636955816868-fcb881e57954?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2hpdGUlMjBncmFkaWVudHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    margin: 50px;
+    text-align: center;
+    /* -webkit-text-stroke: 1px #0B0706; */
+    font-family: glamour;
+    font-weight: 500;
+}
+
+.cards{
+    height: 340px;
+    width: 280px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.cards img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.cards .bottom{
+    background: linear-gradient(transparent, black);
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: relative;
+    bottom: 0%;
+        transition: all ease 0.5s;
+}
+.cards .bottom h2{
+    font-size: 20px;
+    position: relative;
+    left: 5%;
+    font-family: figtree;
+    font-weight: 500;
+}
+.cards .bottom h3{
+    font-size: 17px;
+    position: relative;
+    right: 7%;
+        font-family: display;
+        font-weight: 400;
+}
+
+.cards:hover .bottom{
+    position: relative;
+    bottom:28%;
+}
+.cards:hover{
+    border: 4px solid white;
+
+}
+
+
+.card1 img{
+    object-position: 40% 60%;
+}
+.card2 img{
+    object-position: top;
+}
+.card3 img{
+    object-position: 80% 20%;
+}
+.card4 img{
+    object-position: bottom;
+}
+.card6 img{
+    object-fit: cover;
+    object-position: 70% 30%;
+}
+.card7 img{
+    object-position: 80% 20%;
+}
+.card8 img{
+    object-position: 30% 70%;
+}
+.card9 img{
+    object-position: top;
+}
+.card10 img{
+    object-position: 20% 10%;
+}
