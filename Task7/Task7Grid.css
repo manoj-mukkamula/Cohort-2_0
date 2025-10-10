@@ -1,0 +1,503 @@
+@font-face {
+  font-family: normal;
+  src: url(fonts/fonnts.com-Normalidad_Text_Bold.otf);
+}
+@font-face {
+  font-family: hebbo;
+  src: url(fonts/heebo.regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  /* background-color: black; */
+  color: black;
+  overflow-x: hidden;
+}
+#main::-webkit-scrollbar {
+  display: none;
+}
+
+.nav {
+  height: 70px;
+  width: 100%;
+  padding: 0px 60px;
+  display: flex;
+  align-items: center;
+  /* gap: 250px; */
+  /* border: solid 2px #2E2E2E; */
+}
+.nav .nav-left img {
+  width: 30px;
+  height: 100%;
+  margin-top: -3px;
+}
+.nav-left {
+  display: flex;
+  gap: 7px;
+  font-family: normal;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  /* border: solid 2px black; */
+}
+.nav-center {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+  margin: 0 auto;
+}
+.nav-center h3 {
+  color: rgb(12, 12, 12);
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.nav-buttons {
+  display: flex;
+  white-space: nowrap;
+  gap: 10px;
+  /* border: solid 2px black; */
+}
+.nav-buttons #button1 {
+  height: 40px;
+  padding: 0px 15px;
+  border-radius: 35px;
+  border: 1.8px solid #0062fc;
+  text-align: center;
+  color: #0062fc;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.nav-buttons #button1:hover {
+  background-color: #0062fc;
+  color: white;
+}
+.nav-buttons #button2 {
+  text-align: center;
+  height: 40px;
+  padding: 0px 30px;
+  border-radius: 30px;
+  background-color: #0062fc;
+  border: 2px solid #0062fc;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.about-firm {
+  background-color: #f6f7f9;
+  height: 1000px;
+  display: grid;
+  margin-top: 10px;
+  padding-top: 10px;
+  grid-template-columns: 1fr 2.5fr;
+  grid-template-rows: 25% 0.95fr;
+  grid-template-areas:
+    "about section"
+    "figure figure";
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+.about-firm #about {
+  grid-area: about;
+}
+.about-firm section {
+  grid-area: section;
+}
+.about-firm figure {
+  grid-area: figure;
+}
+
+.about-firm {
+  margin-top: 10px;
+}
+.about-firm #about {
+  margin: 10px;
+  padding: 5px;
+}
+.about-firm #about h1 {
+  font-family: hebbo;
+  font-size: 50px;
+  font-weight: 300;
+  padding-left: 38px;
+  letter-spacing: -1px;
+}
+
+section {
+  padding: 20px 40px;
+  margin-top: 10px;
+}
+section p {
+  color: #5a5a5a;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+section .buttons {
+  display: flex;
+  white-space: nowrap;
+  gap: 15px;
+  margin-top: 20px;
+  /* border: solid 2px black; */
+}
+section #button2 {
+  height: 40px;
+  padding: 0px 15px;
+  border-radius: 35px;
+  border: 1.7px solid #0062fc;
+  text-align: center;
+  color: #0062fc;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+section #button2:hover {
+  background-color: #0062fc;
+  color: white;
+}
+section #button1 {
+  text-align: center;
+  height: 40px;
+  padding: 0px 30px;
+  border-radius: 30px;
+  background-color: #0062fc;
+  border: 2px solid #0062fc;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+section #button1 i {
+  color: white;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+figure {
+  height: 100%;
+  width: 100%;
+  padding: -0.1% 3% 3% 3%;
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+figure img {
+  height: 100%;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+.numbers div {
+  max-width: 200px;
+}
+.numbers h1 {
+  font-family: system-ui, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #111827;
+  margin: 0 0 10px 0;
+}
+.numbers h5 {
+  font-family: system-ui, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+
+.about-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #f6f7f9;
+  height: 650px;
+  border-radius: 50px;
+}
+.about-us-right {
+  flex-basis: 48%;
+  padding: 55px 5%;
+}
+.about-us-right img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+.about-us-left {
+  flex-basis: 48%;
+  padding: 50px 5% 30px 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+.about-us-left button {
+  padding: 10px 20px;
+  border: 1.4px solid #656668;
+  border-radius: 20px;
+  background-color: transparent;
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+.about-us-left h1 {
+  font-family: system-ui, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.25;
+  margin-bottom: 24px;
+}
+.about-us-left p {
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+
+.expertise {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 70px 5% 10px 5%;
+  background-color: #ffffff;
+}
+.expert-left {
+  flex-basis: 40%;
+}
+.expert-right {
+  flex-basis: 43%;
+}
+.expert-left button {
+  padding: 10px 20px;
+  border: 1.5px solid #515154;
+  border-radius: 20px;
+  background-color: transparent;
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.expert-left h1 {
+  font-family: system-ui, sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.2;
+  white-space: preline;
+}
+.expert-right h4 {
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.7;
+  font-weight: 400;
+  padding-top: 80px;
+}
+
+
+.team-section {
+  padding: 40px 5% 60px 5%;
+  background-color: #ffffff;
+}
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.team-card {
+  flex: 1 1 20%;
+  min-width: 250px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #f3f4f6;
+  font-family: system-ui, sans-serif;
+  transition: all ease 2s;
+}
+
+.team-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  height: 100%;
+}
+.card-info {
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  background: transparent;
+  transition: all 0.5s ease;
+}
+.team-card:hover .card-info {
+  position: relative;
+  bottom: 100px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+}
+.card-info h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 4px 0;
+}
+.card-info p {
+  font-size: 1.15rem;
+  color: #d3d6db;
+  margin: 0;
+}
+
+
+.footer {
+  background-color: #232323;
+  color: #ffffff;
+  padding: 80px 5%;
+  font-family: system-ui, sans-serif;
+  margin: 20px;
+  border-radius: 30px;
+}
+.subscribe {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-areas: "navis quick connect developers";
+  gap: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #495057;
+}
+.navis {
+  grid-area: navis;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.quick {
+  grid-area: quick;
+}
+.connect {
+  grid-area: connect;
+}
+.developers {
+  grid-area: developers;
+}
+.navis h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: normal;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+.navis h1 i {
+  color: #0062fc;
+}
+.navis h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.mail {
+  display: flex;
+  width: 60%;
+  margin-top: 24px;
+  gap: 10px;
+}
+.email {
+  flex-grow: 1;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #495057;
+  color: #adb5bd;
+  font-size: 1rem;
+}
+.sub {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 20px;
+  background-color: #0062fc;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.quick h4,
+.connect h4,
+.developers h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.quick a,
+.connect a,
+.developers a {
+  display: block;
+  color: #adb5bd;
+  text-decoration: none;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.footer-bottom h3 {
+  color: #adb5bd;
+  font-size: 0.9rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.social {
+  display: flex;
+  gap: 20px;
+}
+.social a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+.social i {
+  font-size: 1.3rem;
+}
