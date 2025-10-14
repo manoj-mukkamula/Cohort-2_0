@@ -1,0 +1,79 @@
+@mixin image-style {
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(
+        circle at 50% 50%, 
+        #FFEFBE 0%,
+        #171417 25%,
+        #203240 50%,
+        #03000C 75%,
+        #0C0828 100%
+    );
+    overflow: hidden;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+
+    #grid {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 35% 1fr 1fr 1fr;
+        grid-template-rows: 60% 1fr;
+        gap: 0.5rem;
+        grid-template-areas: "aside section section section"
+                             "aside fig-left fig-center fig-right";
+    }
+
+    aside {
+        grid-area: aside;
+        @include image-style;
+        background-image: url(https://i.pinimg.com/1200x/08/c3/64/08c36415540fb10cd307af4b08ce9171.jpg);
+    }
+
+    section {
+        grid-area: section;
+        @include image-style;
+        background-image: url(https://i.pinimg.com/1200x/de/b5/08/deb508f248644a7ae9d668ee1a2a8fbd.jpg);
+    }
+
+    #fig-left {
+        grid-area: fig-left;
+        @include image-style;
+        background-image: url(https://i.pinimg.com/736x/96/ff/e7/96ffe7121e2519eb781f59ea15f64651.jpg);
+    }
+
+    #fig-center {
+        grid-area: fig-center;
+        @include image-style;
+        background-image: url(https://i.pinimg.com/736x/72/5a/33/725a332473cee46324de8b3b7744ba0c.jpg);
+    }
+
+    #fig-right {
+        grid-area: fig-right;
+        @include image-style;
+        background-image: url(https://i.pinimg.com/736x/55/21/ad/5521ad29f1a3b145ea7f57527ff7d807.jpg);
+    }
+
+    .img:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 20px rgba(208, 200, 114, 0.8);
+    }
+}
