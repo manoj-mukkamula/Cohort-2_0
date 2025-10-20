@@ -12,7 +12,7 @@ Each task folder contains the project code, assets, and (if deployed) a live dem
 | Task | Project Name / Description | Live Demo |
 |------|---------------------------|-----------|
 | Task 1 | Resume Website | [View Live](https://apple-theta-amber.vercel.app/) |
-| Task 2 | Apple-Inspired Landing Page | [View Live](https://apple-theta-amber.vercel.app/) |
+| Task 2 | Chess Landing Page | [View Live]([https://apple-theta-amber.vercel.app/](https://chess-landing-page-manoj-task2.netlify.app/) |
 | Task 3 | Apple-Inspired Landing Page | [View Live](https://apple-theta-amber.vercel.app/) |
 | Task 4 | Apple-Inspired Landing Page | [View Live](https://apple-theta-amber.vercel.app/) |
 | Task 5 | Card UI Project | [View Live](https://cards-six-pied.vercel.app/) |
