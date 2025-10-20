@@ -11,7 +11,7 @@ Each task folder contains the project code, assets, and (if deployed) a live dem
 
 | Task | Project Name / Description | Live Demo |
 |------|---------------------------|-----------|
-| Task 1 | Resume Website | [Basic Portfolio](https://apple-theta-amber.vercel.app/) |
+| Task 1 | Resume Website | [View Live](https://apple-theta-amber.vercel.app/) |
 | Task 2 | Apple-Inspired Landing Page | [View Live](https://apple-theta-amber.vercel.app/) |
 | Task 3 | Apple-Inspired Landing Page | [View Live](https://apple-theta-amber.vercel.app/) |
 | Task 4 | Apple-Inspired Landing Page | [View Live](https://apple-theta-amber.vercel.app/) |
