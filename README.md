@@ -18,7 +18,7 @@ Each task folder contains the project code, assets, and (if deployed) a live dem
 | Task 5 | Style Cards | [View Live](https://cards-six-pied.vercel.app/) |
 | Task 6 |  Card Hover Effects | [View Live](https://manojcohort20task6.vercel.app/) |
 | Scrollable Cards | Scrollable Cards UI | [View Live](https://manojscrollablecards.vercel.app/) |
-| Task 7 | Task 7 Navis clone | [View Live](https://manoj-task-7.vercel.app/) |
+| Task 7 | Navis clone | [View Live](https://manoj-task-7.vercel.app/) |
 | Task 8 | Bento Grid Layout | [View Live](https://manoj-bentogrid-task8.vercel.app/) |
 | Task 9 | Interactive Chess Panels | [View Live](https://manoj-task9-scss.vercel.app/) |
 | Task 10 | Grid Image Gallery | [View Live](https://manoj-task10.vercel.app/) |
