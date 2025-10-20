@@ -24,4 +24,4 @@ Hover interactions lift the card slightly and highlight elements with soft scali
 Manoj Mukkamula
 
 ### License
-This project is licensed under the MIT License — free to use, modify, and distribute with proper attribution.
+This project is licensed under the MIT License, free to use, modify, and distribute with proper attribution.
