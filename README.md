@@ -11,9 +11,9 @@ Each task folder contains the project code, assets, and (if deployed) a live dem
 
 | Task | Project Name / Description | Live Demo |
 |------|---------------------------|-----------|
-| Task 1 | Project Name | Not Deployed |
-| Task 2 | Project Name | Not Deployed |
-| Task 3 | Project Name | Not Deployed |
+| Task 1 | Resume Website | [Basic Portfolio](https://apple-theta-amber.vercel.app/) |
+| Task 2 | Apple-Inspired Landing Page | [View Live](https://apple-theta-amber.vercel.app/) |
+| Task 3 | Apple-Inspired Landing Page | [View Live](https://apple-theta-amber.vercel.app/) |
 | Task 4 | Apple-Inspired Landing Page | [View Live](https://apple-theta-amber.vercel.app/) |
 | Task 5 | Card UI Project | [View Live](https://cards-six-pied.vercel.app/) |
 | Task 6 | Task 6 Project | [View Live](https://manojcohort20task6.vercel.app/) |
