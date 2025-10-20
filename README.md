@@ -38,7 +38,7 @@ Each task folder contains:
 ## 📌 Notes
 
 - Some projects are deployed online, others are available locally in the repository.  
-- Projects cover **HTML, CSS, JavaScript, ReactJS, Web3, GenAI, DevOps, and cloud technologies**.  
+- Projects cover **HTML, CSS technologies**.  
 - Feel free to explore each task folder and the live demos where available.  
 
 ---
