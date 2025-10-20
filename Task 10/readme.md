@@ -1,4 +1,4 @@
-# Task 10 — Grid Image Gallery
+# Task 10: Grid Image Gallery
 
 Responsive grid gallery built with SCSS + compiled CSS. Uses CSS Grid for layout and background images for each panel.
 
@@ -17,7 +17,6 @@ Files
 Notes
 - No explicit image heights — grid defines parent dimensions.
 - Reusable @mixin (image-style) applies background-size: cover for perfect scaling.
-- Enjoyed experimenting with SCSS mixins & nesting.
 
 Author: manoj-mukkamula  
 License: MIT
