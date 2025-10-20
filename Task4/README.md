@@ -25,10 +25,10 @@ Although not yet fully responsive, it demonstrates advanced layout and visual hi
 
 #### 📂 Files Included
 
-* `index.html` — Structure of the landing page
-* `Style.css` — Flexbox layout, typography, and hover-ready tiles
-* `fonts/` — Custom SF (San Francisco) fonts
-* `images/` — Background and product images
+* `index.html` : Structure of the landing page
+* `Style.css` : Flexbox layout, typography, and hover-ready tiles
+* `fonts/` : Custom SF (San Francisco) fonts
+* `images/` : Background and product images
 
 #### 📝 Notes
 
