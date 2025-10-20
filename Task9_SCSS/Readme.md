@@ -1,4 +1,4 @@
-# Task 9 — SCSS Expanding Panels
+# Task 9 : SCSS Expanding Panels
 
 Six responsive image panels that expand on hover. Built with SCSS (Style.scss) and compiled CSS (Style.css).
 
