@@ -9,8 +9,8 @@ Responsive image gallery for a fashion studio landing page, built with HTML + co
 2. Open `Task11_12.html` in your browser for a static preview
 
 ## Files
-- `Task11_12.html`
-- `Task11_12.css` (compiled)
+- `index.html`
+- `Style.css` (compiled)
 
 ## Notes
 - Fully responsive: adapts grid and flex layouts for desktop and mobile
