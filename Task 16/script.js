@@ -1,4 +1,4 @@
-// DAY 26 PRATICE:
+// DAY 27 PRACTICE:
 // Console types
 console.info("This is an info message");
 console.warn("This is a warning message");
@@ -132,5 +132,6 @@ function ageInput() {
   if (age >= 50) return "Senior";
 }
 console.log(ageInput(age));
+
 
 console.timeEnd("time taken");
