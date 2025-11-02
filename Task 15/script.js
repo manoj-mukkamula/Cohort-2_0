@@ -1,4 +1,4 @@
-//  Day 25 Practice: 
+//  Day 26 Practice: 
 // Variables: values can be changed
 let a;
 let b = 12;
@@ -66,4 +66,5 @@ function isEmpty(value) {
 
 //  5)  Compare with loose vs strict:
 console.log(5 == "5"); // true because of type coercion
+
 console.log(5 === "5"); // false because types are different
