@@ -29,6 +29,10 @@ const c = "Mukkamula";
 // let a = "manoj updated"; // Error: 'a' is already declared using let
 var b = "yadav1"; // possible since var allows re-assigning of values
 // const c = "mukkamula2";  // since const has fixed values only, so re-assigning or updating values is not possible
+{
+let money = 255;
+}
+console.log(money); // 255 is not output because let is function scope
 let name = {firstName: "Manoj", lastName: "Mukkamula "}
 console.log(name.lastName+name.firstName); // Mukkamula Manoj
 const pie = 3.14;
@@ -149,3 +153,4 @@ console.log(obj1.name); // "Sheryians" → both change together
 // 3. Observation:
 // Primitives (like numbers) store actual values,
 // References (like objects) store memory addresses
+
