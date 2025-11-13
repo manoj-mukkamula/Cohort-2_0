@@ -1,4 +1,4 @@
-// Self Task - Practice Questions from chatgpt
+// Self Task - Practice Questions from chatgpt SELF TASK
 // 🟢 EASY LEVEL (Basics & Parameters)
 // Q1. Create a function `welcome(name = "Guest")` that prints a welcome message.
 //     Use a default parameter and call it with & without passing a name.
@@ -21,6 +21,7 @@ function describeUser({ name, age }) {
   console.log(`Name: ${name}, Age: ${age}`);
 }
 describeUser({ name: "Manoj", age: 21 });
+
 
 // 🟡 MEDIUM LEVEL (Rest, Spread, Expressions, Arrow)
 // Q4. Write a function `addAll(...nums)` using rest parameters
@@ -59,6 +60,7 @@ let findMax = (...arr) => {
 };
 console.log(findMax(1, 6, 4, 7, 4, 13));
 
+
 // 🔴 HARD LEVEL (Hoisting, Scope Chain, HOF, IIFE – beginner-friendly)
 // Q8. Create an example showing that function declarations are hoisted
 //     but function expressions are not. Print console outputs to prove it.
@@ -95,6 +97,7 @@ console.log(operate(8, 4, add));
 console.log(operate(8, 4, sub));
 console.log(operate(8, 4, mul));
 
+
 // Extra Questions to cover all topics
 // Q11. Create an IIFE that prints "App Started" as soon as the program runs.
 //       (Covers: IIFE – Immediately Invoked Function Expression)
@@ -120,3 +123,4 @@ function mergeObjects(obj1, obj2) {
   return { ...obj1, ...obj2 };
 }
 console.log(mergeObjects({ name: "Manoj" }, { age: 21 }));
+
