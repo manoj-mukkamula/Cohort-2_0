@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#box {
+  height: 30rem;
+  width: 37rem;
+  background-color: rgb(73, 143, 61);
+  border-radius: 2rem;
+  border: 5px solid white;
+}
+#btn {
+  color: white;
+  padding: 0.8rem 2rem;
+  background-color: red;
+  font-size: 1.7rem;
+  border-radius: 0.8rem;
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid white;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#btn:active{
+  scale: 0.95;
+  background-color: cadetblue;
+}
