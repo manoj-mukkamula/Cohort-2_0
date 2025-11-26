@@ -66,7 +66,6 @@ This project reinforced the following **core JavaScript and DOM concepts**:
 ## 👤 Author
 
 **manoj-mukkamula**
-*Part of the Cohort 2.0 Syllabus: Complete Web Development + DSA + Aptitude & Reasoning course.*
 
 ---
 
