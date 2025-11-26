@@ -1,0 +1,59 @@
+@font-face {
+  font-family: inter;
+  src: url("fonts/Inter Black 900.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column;
+  gap: 2.5rem; */
+  background: linear-gradient(
+    135deg,
+    #0b0c10 0%,
+    #16171d 30%,
+    #1f2030 60%,
+    #0a2342 100%
+  );
+  /* padding: 2rem 1rem; */
+}
+
+#btn {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #222;
+  padding: 0.7rem 1.7rem;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s ease;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 2;
+}
+
+#btn:hover {
+  scale: 1.05;
+}
+
+#btn:active {
+  scale: 0.95;
+}
